@@ -1,0 +1,75 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #1c404e;
+  font: 16px/1 'Meera Inimai','arial','sans-serif';
+}
+
+.image-block,
+.text-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.text-block {
+  color: #1c404e;
+}
+
+.image-block{
+  margin-right: 1em;
+}
+
+.image-block img {
+  width: 150px;
+}
+
+#site-wrapper {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#card {
+  background-image: url(../images/green_cup.png);
+  padding: 2em;
+  width: 510px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 2em auto;
+  border-radius: .8em;
+  -webkit-box-shadow: 13px 14px 18px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 13px 14px 18px 1px rgba(0,0,0,0.75);
+  box-shadow: 13px 14px 18px 1px rgba(0,0,0,0.75);
+}
+
+element.style {
+  font: 16px/1 'arial', 'sans-serif';
+}
+
+.header {
+  font-size: .8rem;
+}
+
+a {
+  color: #3a7c72;
+  text-decoration:none;
+}
+
+a:hover {
+  color: #1c404e;
+}
+
+.no-style {
+  list-style: none;
+  padding-left: 0;
+}
+
+.no-style li {
+  display: inline-block;
+}
