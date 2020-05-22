@@ -4,7 +4,11 @@ body {
 }
 
 body {
+
+  background-image: url("../images/web-design-2906159_1280.jpg");
   background-color: #1c404e;
+  background-size: cover;
+  background-repeat: no-repeat;
   font: 16px/1 'Meera Inimai','arial','sans-serif';
 }
 
@@ -36,13 +40,13 @@ body {
 
 
 #card {
-  background-image: url(../images/green_cup.png);
+  background-image: url(../images/seamless_paper_texture.png);
   padding: 2em;
   width: 510px;
   max-width: 100%;
   box-sizing: border-box;
   margin: 2em auto;
-  border-radius: .8em;
+  border-radius: 2em;
   -webkit-box-shadow: 13px 14px 18px 1px rgba(0,0,0,0.75);
   -moz-box-shadow: 13px 14px 18px 1px rgba(0,0,0,0.75);
   box-shadow: 13px 14px 18px 1px rgba(0,0,0,0.75);
@@ -72,4 +76,8 @@ a:hover {
 
 .no-style li {
   display: inline-block;
+}
+
+img {
+    border: 1px solid black;
 }
